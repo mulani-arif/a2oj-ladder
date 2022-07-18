@@ -4,7 +4,7 @@ int main()
 {
     char s[110];
     int count_cap=0,count_small=0;
-    fgets(s,100,stdin);
+    fgets(s,110,stdin);
     for(int i=0;i<strlen(s);i++)
     {
        if(s[i]>='A' && s[i]<='Z')
